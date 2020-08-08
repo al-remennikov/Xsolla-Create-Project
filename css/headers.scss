@@ -1,0 +1,28 @@
+$head: #2e282c;
+
+.header {
+  height: 66px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+  color: $head;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.filters {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+
+  &_header {
+    font-size: 24px;
+    color: $head;
+    margin-right: 15px;
+  }
+  #month {
+    margin-left: 20px;
+  }
+}
